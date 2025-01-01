@@ -1,0 +1,46 @@
+[
+ {
+  "airline": "China Eastern, Shanghai Airlines",
+  "price": "A$1,771"
+ },
+ {
+  "airline": "China Eastern",
+  "price": "A$1,771"
+ },
+ {
+  "airline": "China Eastern",
+  "price": "A$2,341"
+ },
+ {
+  "airline": "Scoot, ANA",
+  "price": "A$2,235"
+ },
+ {
+  "airline": "China Eastern, Shanghai Airlines",
+  "price": "A$2,341"
+ },
+ {
+  "airline": "Asiana, Peach Aviation",
+  "price": "A$2,643"
+ },
+ {
+  "airline": "Emirates",
+  "price": "A$2,913"
+ },
+ {
+  "airline": "Qantas",
+  "price": "A$3,761"
+ },
+ {
+  "airline": "ANA",
+  "price": "A$4,115"
+ },
+ {
+  "airline": "Operated by Air Japan",
+  "price": "A$4,115"
+ },
+ {
+  "airline": "JAL",
+  "price": "A$4,496"
+ }
+]
