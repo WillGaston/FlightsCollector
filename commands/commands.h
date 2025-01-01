@@ -7,10 +7,13 @@
 #include <spawn.h>
 #include <sys/types.h>
 #include <sys/wait.h>
+#include <fstream>
+#include <jsoncpp/json/json.h>
 
 int findDeals(int numArguments, char *arguments[]);
 void viewDeals();
 void saveDeal();
 void removeDeal();
+void displayFlights(std::string dep, std::string dest, std::string ld, std::string rd);
 
 #endif

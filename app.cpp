@@ -31,8 +31,6 @@ void findFunction(int numArguments, char *arguments[]) {
     findDeals(numArguments, arguments);
   } else if (strcmp(funcOption, "-v") == 0) {
     viewDeals();
-  } else if (strcmp(funcOption, "-s") == 0) {
-    saveDeal();
   } else if (strcmp(funcOption, "-r") == 0) {
     removeDeal();
   } else {
@@ -65,9 +63,8 @@ void help(bool flag) {
   --------------------------------------------------------------------
 
   Options:
-   -f -dep <departure> -dest <destination> -ld <YYYY-MM-DD> -rd <YYYY-MM-DD>   Find deals
+   -f -dep <departure> -dest <destination> -ld <YYYY-MM-DD> -rd <YYYY-MM-DD>    Find deals
    -v                                                                           View saved deals
-   -s -fn <flight number>                                                       Add flight to saved deals
    -r -fn <flight number> || -all                                               Remove saved flight deals
    -h                                                                           Help page
    -e -active <email status> -freq <email frequency>                            Email options
