@@ -32,7 +32,7 @@ void findFunction(int numArguments, char *arguments[]) {
   } else if (strcmp(funcOption, "-v") == 0) {
     viewDeals();
   } else if (strcmp(funcOption, "-r") == 0) {
-    removeDeal();
+    removeDeal(numArguments, arguments);
   } else {
     help(false);
   }

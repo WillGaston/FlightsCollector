@@ -166,7 +166,7 @@ void saveFlight(std::string dep, std::string dest, std::string ld, std::string r
     return;
   }
   
-  std::string createQuery = "CREATE TABLE IF NOT EXISTS flights (id INTEGER PRIMARY KEY AUTOINCREMENT, departure TEXT, destination TEXT, leave_date TEXT, return_date TEXT, lowest_price INT)";
+  std::string createQuery = "CREATE TABLE IF NOT EXISTS flights (id INTEGER PRIMARY KEY, departure TEXT, destination TEXT, leave_date TEXT, return_date TEXT, lowest_price INT)";
   sqlite3_stmt *createStatement;
   sqlite3_prepare(db, createQuery.c_str(), -1, &createStatement, nullptr); 
 
