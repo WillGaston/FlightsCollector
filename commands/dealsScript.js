@@ -8,7 +8,10 @@ const saveFile = 'flightData.json';
 
 
 const scoot_flights = async () => {
-  const browser = await playwright.chromium.launch({ headless: false });
+
+  console.log("Waiting...\n");
+
+  const browser = await playwright.chromium.launch({ headless: true });
   const context = await browser.newContext();
   const page = await context.newPage();
 
@@ -60,10 +63,13 @@ const scoot_flights = async () => {
 
   $('.pIav2d').each((index, element) => {
 
-    const airline = $(element).find('.sSHqwe span').last().text().trim();
+    const airline = $(element).find('.ogfYpf span').last().text().trim();
     const price = $(element).find('.YMlIz span').last().text().trim();
+    let directness = $(element).find('.EfT7Ae span').last().text().trim();
 
-    prices.push({ airline, price });
+    directness = directness === "Nonstop" ? "Direct    " : "Non-Direct";
+
+    prices.push({ airline, price, directness });
   });
 
   prices = prices.slice(0, prices.length / 2);
@@ -79,6 +85,8 @@ const scoot_flights = async () => {
   };
 
   save();
+
+  console.log("Finished Search\n");
   
 
 }
