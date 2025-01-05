@@ -33,6 +33,8 @@ void findFunction(int numArguments, char *arguments[]) {
     viewDeals();
   } else if (strcmp(funcOption, "-r") == 0) {
     removeDeal(numArguments, arguments);
+  } else if (strcmp(funcOption, "-e") == 0) {
+    findDealLoop();
   } else {
     help(false);
   }

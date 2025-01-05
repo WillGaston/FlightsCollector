@@ -1,57 +1,67 @@
 [
  {
-  "airline": "Scoot",
-  "price": "A$574",
-  "directness": "Direct    "
- },
- {
-  "airline": "Operated by Finnair for Qantas",
-  "price": "A$950",
-  "directness": "Direct    "
- },
- {
-  "airline": "Virgin Australia",
-  "price": "A$1,081",
-  "directness": "Direct    "
- },
- {
-  "airline": "Jetstar",
-  "price": "A$729",
+  "airline": "Asiana",
+  "price": "A$1,927",
   "directness": "Non-Direct"
  },
  {
-  "airline": "THAI",
-  "price": "A$878",
+  "airline": "Singapore Airlines",
+  "price": "A$2,288",
   "directness": "Non-Direct"
  },
  {
-  "airline": "Emirates",
-  "price": "A$950",
-  "directness": "Direct    "
+  "airline": "Qantas",
+  "price": "A$2,443",
+  "directness": "Non-Direct"
  },
  {
-  "airline": "Emirates",
-  "price": "A$1,075",
-  "directness": "Direct    "
+  "airline": "Turkish Airlines",
+  "price": "A$2,203",
+  "directness": "Non-Direct"
  },
  {
-  "airline": "Virgin Australia",
-  "price": "A$1,081",
-  "directness": "Direct    "
+  "airline": "Korean Air",
+  "price": "A$2,284",
+  "directness": "Non-Direct"
  },
  {
-  "airline": "Virgin Australia",
-  "price": "A$1,081",
-  "directness": "Direct    "
+  "airline": "Singapore Airlines",
+  "price": "A$2,288",
+  "directness": "Non-Direct"
  },
  {
-  "airline": "Virgin Australia",
-  "price": "A$1,081",
-  "directness": "Direct    "
+  "airline": "Qantas",
+  "price": "A$2,380",
+  "directness": "Non-Direct"
  },
  {
-  "airline": "British Airways",
-  "price": "A$1,495",
-  "directness": "Direct    "
+  "airline": "Qantas",
+  "price": "A$2,481",
+  "directness": "Non-Direct"
+ },
+ {
+  "airline": "Qantas",
+  "price": "A$2,600",
+  "directness": "Non-Direct"
+ },
+ {
+  "airline": "Qantas",
+  "price": "A$2,600",
+  "directness": "Non-Direct"
+ },
+ {
+  "airline": "Singapore Airlines",
+  "price": "A$2,785",
+  "directness": "Non-Direct"
+ },
+ {
+  "airline": "Qantas",
+  "price": "A$2,970",
+  "directness": "Non-Direct"
+ },
+ {
+  "airline": "Air India",
+  "price": "Price unavailable",
+  "directness": "Non-Direct"
  }
 ]
