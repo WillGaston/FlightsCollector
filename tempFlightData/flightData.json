@@ -1,67 +1,62 @@
 [
  {
-  "airline": "Asiana",
-  "price": "A$1,927",
+  "airline": "Scoot",
+  "price": "A$703",
+  "directness": "Direct    "
+ },
+ {
+  "airline": "Scoot",
+  "price": "A$703",
+  "directness": "Direct    "
+ },
+ {
+  "airline": "Jetstar",
+  "price": "A$881",
+  "directness": "Direct    "
+ },
+ {
+  "airline": "Emirates",
+  "price": "A$1,038",
+  "directness": "Direct    "
+ },
+ {
+  "airline": "Jetstar",
+  "price": "A$914",
+  "directness": "Non-Direct"
+ },
+ {
+  "airline": "Emirates",
+  "price": "A$1,088",
+  "directness": "Direct    "
+ },
+ {
+  "airline": "Qantas",
+  "price": "A$1,182",
   "directness": "Non-Direct"
  },
  {
   "airline": "Singapore Airlines",
-  "price": "A$2,288",
-  "directness": "Non-Direct"
+  "price": "A$1,665",
+  "directness": "Direct    "
  },
  {
-  "airline": "Qantas",
-  "price": "A$2,443",
-  "directness": "Non-Direct"
- },
- {
-  "airline": "Turkish Airlines",
-  "price": "A$2,203",
-  "directness": "Non-Direct"
- },
- {
-  "airline": "Korean Air",
-  "price": "A$2,284",
-  "directness": "Non-Direct"
+  "airline": "Virgin Australia",
+  "price": "A$1,665",
+  "directness": "Direct    "
  },
  {
   "airline": "Singapore Airlines",
-  "price": "A$2,288",
-  "directness": "Non-Direct"
- },
- {
-  "airline": "Qantas",
-  "price": "A$2,380",
-  "directness": "Non-Direct"
- },
- {
-  "airline": "Qantas",
-  "price": "A$2,481",
-  "directness": "Non-Direct"
- },
- {
-  "airline": "Qantas",
-  "price": "A$2,600",
-  "directness": "Non-Direct"
- },
- {
-  "airline": "Qantas",
-  "price": "A$2,600",
-  "directness": "Non-Direct"
+  "price": "A$1,825",
+  "directness": "Direct    "
  },
  {
   "airline": "Singapore Airlines",
-  "price": "A$2,785",
-  "directness": "Non-Direct"
+  "price": "A$1,825",
+  "directness": "Direct    "
  },
  {
-  "airline": "Qantas",
-  "price": "A$2,970",
-  "directness": "Non-Direct"
- },
- {
-  "airline": "Air India",
-  "price": "Price unavailable",
-  "directness": "Non-Direct"
+  "airline": "Singapore Airlines",
+  "price": "A$1,825",
+  "directness": "Direct    "
  }
 ]

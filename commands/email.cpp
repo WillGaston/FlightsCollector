@@ -44,7 +44,6 @@ void findDealLoop() {
     std::cout << line;
   }
 
-
 }
 
 int findDealsForEmail(string dep, string dest, string ld, string rd, std::vector<std::string>& output) {
@@ -101,6 +100,8 @@ void displayFlightsForEmail(std::string dep, std::string dest, std::string ld, s
 
   output.push_back("\n");
   output.push_back(dep + " --> " + dest + "\n");
+
+  output.push_back("\nLowest Price: " + lowestPrice + "\n");
 
   output.push_back("\n");
   output.push_back("ID   |  Price  | Dep | Des | Leave Date |  Ret Date  | Directness | Airline \n");
