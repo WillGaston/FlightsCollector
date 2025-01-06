@@ -1,14 +1,27 @@
 # FlightsCollector
-Web App and daily email reminder for cheapest flights to a destination
+CLI App for finding flight deals.
 
 
 ### Usage
+```
+ ______ _ _       _     _      _____      _ _           _             
+ |  ____| (_)     | |   | |    / ____|    | | |         | |            
+ | |__  | |_  __ _| |__ | |_  | |     ___ | | | ___  ___| |_ ___  _ __ 
+ |  __| | | |/ _` | '_ \| __| | |    / _ \| | |/ _ \/ __| __/ _ \| '__|
+ | |    | | | (_| | | | | |_  | |___| (_) | | |  __/ (__| || (_) | |   
+ |_|    |_|_|\__, |_| |_|\__|  \_____\___/|_|_|\___|\___|\__\___/|_|   
+              __/ |                                                    
+             |___/   
 
-FlightCollect -dep \<departure> -dest \<destination> -ld \<leaving date> -rd \<returning date>
+  --------------------------------------------------------------------
+  |                                                                   |
+  |                    Find the best flight deals                     |
+  |                                                                   |
+  --------------------------------------------------------------------
 
-Options:
-
--dep, --departure <br>
--dest, --destination <br>
--ld, --leaving date <br>
--rd, --returning date
+  Options:
+   -f -dep <departure> -dest <destination> -ld <YYYY-MM-DD> -rd <YYYY-MM-DD>    Find deals
+   -v                                                                           View saved deals
+   -s                                                                           Search saved deals
+   -r -fn <flight number> || -all                                               Remove saved flight deals
+   -h                                                                           Help page
