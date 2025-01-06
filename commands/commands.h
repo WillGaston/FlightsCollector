@@ -18,5 +18,7 @@ void saveDeal();
 void removeDeal(int numArguments, char *arguments[]);
 void displayFlights(std::string dep, std::string dest, std::string ld, std::string rd);
 void saveFlight(std::string dep, std::string dest, std::string ld, std::string rd, std::string lowestPrice);
+void findDealLoop();
+int parsePrice(std::string price);
 
 #endif

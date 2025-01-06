@@ -33,6 +33,8 @@ void findFunction(int numArguments, char *arguments[]) {
     viewDeals();
   } else if (strcmp(funcOption, "-r") == 0) {
     removeDeal(numArguments, arguments);
+  } else if (strcmp(funcOption, "-s") == 0) {
+    findDealLoop();
   } else {
     help(false);
   }
@@ -65,8 +67,8 @@ void help(bool flag) {
   Options:
    -f -dep <departure> -dest <destination> -ld <YYYY-MM-DD> -rd <YYYY-MM-DD>    Find deals
    -v                                                                           View saved deals
+   -s                                                                           Search saved deals
    -r -fn <flight number> || -all                                               Remove saved flight deals
-   -h                                                                           Help page
-   -e -active <email status> -freq <email frequency>                            Email options
+   -h                                                                           Help page                                                                     
   )" << '\n';
 }
