@@ -1,6 +1,13 @@
 # FlightsCollector
 CLI App for finding flight deals.
 
+##
+To compile
+
+```shell
+g++ app.cpp ./commands/viewDeals.cpp ./commands/removeDeal.cpp ./commands/findDeals.cpp ./commands/email.cpp -o fl  -lsqlite3 -ljsoncpp
+```
+
 
 ### Usage
 ```
